@@ -6,10 +6,6 @@ The framework is designed to address the limitations of conventional PLM-based D
 
 ---
 
-# Framework Overview
-![Uploading dti1.png…]()
-
-
 
 # Environment Setup
 
@@ -28,6 +24,7 @@ torch-cluster==1.6.2
 torch-scatter==2.1.2
 torch-sparse==0.6.18
 scikit-learn==1.6.1
+```
 
 ## Run
 python train.py
