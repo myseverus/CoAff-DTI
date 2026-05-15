@@ -2,7 +2,6 @@
 
 CoAff-DTI is an end-to-end deep learning framework for fine-grained drug--target interaction (DTI) prediction using pre-trained language models (PLMs) and affinity-guided cross-modal interaction learning.
 
-The framework is designed to address the limitations of conventional PLM-based DTI models that primarily rely on coarse-grained global embeddings. CoAff-DTI introduces token-level interaction modeling and affinity-guided feature fusion to better capture local interaction patterns between drug substructures and protein residues.
 
 ---
 
