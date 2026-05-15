@@ -7,23 +7,9 @@ The framework is designed to address the limitations of conventional PLM-based D
 ---
 
 # Framework Overview
+![Uploading dti1.png…]()
 
-The proposed framework mainly consists of:
 
-- **PLM-based Representation Learning**
-  - Drug representations are extracted using ChemBERTa.
-  - Protein representations are extracted using ESM-2.
-
-- **Multi-view Tokenizer**
-  - Decomposes global embeddings into fine-grained pharmacophore and residue tokens.
-
-- **Affinity-Guided Cross-Attention (AGCA)**
-  - Models local cross-modal interactions between drugs and proteins.
-
-- **Affinity-Gating Fusion (AGF)**
-  - Enhances multimodal feature integration through adaptive interaction modeling.
-
----
 
 # Environment Setup
 
@@ -42,3 +28,6 @@ torch-cluster==1.6.2
 torch-scatter==2.1.2
 torch-sparse==0.6.18
 scikit-learn==1.6.1
+
+## Run
+python train.py
